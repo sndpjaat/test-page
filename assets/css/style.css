@@ -11,7 +11,7 @@
     text-decoration: none !important;
     list-style-type: none;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 /* ---------------------------------------------navbar-------------------------------------- */
@@ -33,7 +33,9 @@
     display: inline-block;
     padding-bottom: 5px;
 }
-
+.gap-24{
+    gap: 24px;
+}
 .hoverline::after {
     content: '';
     position: absolute;
@@ -123,7 +125,7 @@
 }
 
 .bg-img {
-    background-image: url(../image/hdr_bgpic.png);
+    background-image: url(../image/hdr_bgpic2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,13 +162,13 @@
 }
 
 .short_pic_frst {
-    bottom: 30%;
+    bottom: 24%;
     left: 49%;
 }
 
 .short_pic_scnd {
-    bottom: 12%;
-    left: 48%;
+    bottom: 4%;
+    left: 45%;
 }
 
 
@@ -237,12 +239,12 @@
 
 /*------------------------------------------------------- section_2 ----------------------------------------*/
 .sction_scnd_frst_elps{
-    bottom: 8%;
-    right: 2%;
+    bottom: -7%;
+    right: 0%;
 }
 .sction_scnd_elps{
     left: 0;
-    top: 2%;
+    top: 87%;
 }
 .bg-img_2 {
     background-image: url(../image/sction_2_bg_pic.png);
@@ -356,6 +358,10 @@ transition: all 300ms linear;
 }
 
 /* ---------------------------------------section_4 --------------------------------------*/
+.sction_for_frst_elps{
+    bottom: -6%;
+    right: 0%;
+}
 .max-w-476 {
     max-width: 476px;
 }
@@ -421,6 +427,10 @@ transition: all 300ms linear;
 }
 
 /*--------------------------------------------- section_5 ---------------------------------------------*/
+.sction_five_elps{
+    bottom: 2%;
+    left: 0;
+}
 .max-w-1916 {
     max-width: 1916px;
 
@@ -718,6 +728,35 @@ transition: all 300ms linear;
 
 
 }
+/* ----------------------------top_up_btn -----------------------------------*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--text-p-white);
+    outline: none;
+    background-color:var(--black);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    transition: all 400ms linear;
+
+}
+
+
+
+#myBtn:hover {
+    box-shadow: 0px 0px 20px 0px var(--text-black);
+    transform: scale(1.1);
+
+}
+.c_p{
+    cursor: pointer;
+}
 
 
 @media (max-width:767px) {
@@ -792,5 +831,7 @@ transition: all 300ms linear;
         max-width: px;
     }
 
-
+    .text_box {
+        padding-left: 0px;
+    }
 }
