@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test page</title>
+    <link rel="shortcut icon" href="./assets/image/svg/fav_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!-- <div class="loading-overlay d -none" id="loadingOverlay">
+        <div class="loader mx-5 d-flex flex-wrap justify-content-center align-items-center">
+            <img class=" w-100 max-500" src="./assets/image/fotr_logo.png" alt="svg">
+            <h2 class="fs-5xl text-purple pt-4 loader_1">...</h2>
+        </div>
+    </div> -->
+    <section>
+        <nav class=" py-navbar">
+            <div class="container max-w-1440  ">
+                <div class=" d-flex mb-0 gap-24 align-items-center justify-content-between  mobile_view" id="navbar">
+
+                    <div class=" d-flex align-items-center justify-content-betwee">
+
+                        <div>
+                            <ul class="d-flex gap-32 m-0 p-0   flex-column flex-md-row ">
+                                <li> <img class="cp d-md-none max-logo" src="./assets/image/svg/nav_logo.svg"
+                                        alt="logo">
+                                </li>
+                                <li><a href="#Home"
+                                        class=" home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                        onclick="openNav()">Home</a> </li>
+                                <li><a href="#About"
+                                        class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                        onclick="openNav()">About Us</a> </li>
+                                <li><a href="#Service"
+                                        class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                        onclick="openNav()">Service</a> </li>
+                                <li><a href="#Our"
+                                        class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                        onclick="openNav()">Our Team</a> </li>
+                                <li><a href="#Gallery"
+                                        class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                        onclick="openNav()">Gallery</a> </li>
+                            </ul>
+                        </div>
+                        <div class=" m-0 p-0 d-flex align-items-ce gap-10 ">
+                            <img class="cp max-logo" src="./assets/image/svg/nav_logo.svg" alt="dog.svg">
+                        </div>
+                        <div class="gap-19 d-flex justify-content-space-be tween">
+                            <button class=" btn_1 ff_Inter fw-500 fs-sm lh-32 text-black">Log In</button>
+                            <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-black">Contact Us</button>
+                        </div>
+
+                    </div>
+
+                    <div onclick="openNav()" class="menu d-block d-md-none ">
+                        <span class=" span-style"></span>
+                        <span class="my-2 span-style"></span>
+                        <span class=" span-style"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container position-relative bg-img max-w-1341">
+            <div class="position-absolute z-0 short_pic_frst">
+                <img src="./assets/image/short_pic_frst.png" alt="short_pic_frst.png" class="w-100">
+
+            </div>
+            <div class="position-absolute z-0 short_pic_scnd">
+                <img src="./assets/image/short_pic_scnd.png" alt="" class="w-100">
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="text_box ">
+                        <h2 class="max-w-523 ff_Playfair fw-800 fs-2xl lh-95 text-p-white mb-0 pt-85 pb-7">Welcome to
+                            Facvbnjkdfgb Electrolysis </h2>
+                        <p class="max-w-673 ff_Playfair fw-400 fs-xl lh-63 text-p-white pb-14 fst-italic mb-0">Your
+                            Journey to Timeless Beauty</p>
+                        <p class="max-w-556 ff_Poppins fw-400 fs-sm lh-26 text-p-white mb-0 pb-34">Welcome to
+                            FabElectrolysis, revealing your natural radiance with personalized, transformative
+                            procedures for a flawless look. Experience it today!</p>
+                        <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-p-white">Book Appointment</button>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img src="./assets/image/beautiful_young_woman_with_beauty_long-curly_hair.png"
+                        alt="beautiful_young_woman_with_beauty_long-curly_hair.png" class="w-100">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--------------------------------------- section_1 ------------------------------------>
+    <section class=" py_clients position-relative">
+        <div class="position-absolute z-0 frst_sction_elps">
+            <img src="./assets/image/svg/frst_sction_elps.svg" alt="frst_sction_elps.svg" class="w-100">
+
+        </div>
+        <div class="position-absolute z-0 frst_sction_scmd_elps ">
+            <img src="./assets/image/svg/frst_sction_scmd_elps.svg" alt="frst_sction_scmd_elps.svg" class="w-100">
+
+        </div>
+        <div class="container max-w-1440">
+            <div class="d-flex justify-content-between ">
+                <h2 class="max-w-484 ff_Playfair fw-500 fs-xl lh-57 text-color-black mb-0">Hair Removal & Skin
+                    Rejuvenation</h2>
+                <p class="max-w-462 ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black op-70 z-3">Explore your options with
+                    a free consultation. Our experts will guide you through our equipment and address all your
+                    questions, ensuring you're informed and confident in your choices.</p>
+
+            </div>
+            <div class="d-flex gap-5 pt-50 justify-content-center ">
+                <div class="box_one">
+                    <img src="./assets/image/girl_with_treatment.png" alt="girl_with_treatment.png" class="w-100">
+
+                    <div class="text_house">
+                        <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Electrolysis</h2>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-7">Time <span
+                                class="text-d-pink"> -15 Min</span> </p>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-5">Starting From <span
+                                class="text-d-pink"> $22-$90</span></p>
+                        <p class="max-w-304 ff_Poppins fw-400 fs-sm lh-24 text-color-black mb-0 op-80 pb-19">Experience
+                            permanent hair removal with our Apilus XCell Pro electrolysis treatment. Achieve smooth,
+                            confident skin with lasting results.</p>
+                        <button class="btn-3 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="box_one">
+                    <img src="./assets/image/waching_screen.png" alt="girl_with_treatment.png" class="w-100">
+
+                    <div class="text_house">
+                        <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Free Consultation</h2>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-7">Time <span
+                                class="text-d-pink"> -15 Min</span> </p>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-5">Starting From <span
+                                class="text-d-pink"> $0</span></p>
+                        <p class="max-w-304 ff_Poppins fw-400 fs-sm lh-24 text-color-black mb-0 op-80 pb-19">Discover
+                            smooth, hair-free skin with our Candela GentleMax Pro laser hair removal. Enjoy the
+                            confidence of silky-smooth skin.</p>
+                        <button class="btn-3 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="box_one">
+                    <img src="./assets/image/old_young_gir.png" alt="girl_with_treatment.png" class="w-100">
+
+                    <div class="text_house">
+                        <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Fine Lines and Wrinkles
+                        </h2>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-7">Time <span
+                                class="text-d-pink"> -30 Min</span> </p>
+                        <p class="ff_Poppins fw-400 fs-sm lh-24 mb-0 text-color-black pb-5">Starting From <span
+                                class="text-d-pink"> $99</span></p>
+                        <p class="max-w-304 ff_Poppins fw-400 fs-sm lh-24 text-color-black mb-0 op-80 pb-19">Revitalize
+                            skin: Laser treatment reduces lines, boosts collagen for firmness, smoothness, and a
+                            youthful glow.</p>
+                        <button class="btn-3 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">Book Now</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="pt-50 d-flex justify-content-center align-items-center">
+
+                <button class="btn-4 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">See More</button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-------------------------------------------------- section_2 ------------------------------------------------->
+    <section class="bg-img_2 py_clients position-relative ">
+        <div class="position-absolute z-0 sction_scnd_frst_elps">
+            <img src="./assets/image/svg/sction_scnd_frst_elps.svg" alt="sction_scnd_frst_elps.svg" class="w-100">
+        </div>
+        <div class="position-absolute z-0 sction_scnd_elps">
+            <img src="./assets/image/svg/sction_scnd_elps.svg" alt="sction_scnd_elps.svg" class="w-100"> 
+             
+        </div>
+        <div class="container max-w-1440">
+            <div class="row py-scton_2">
+                <div class="col-12 col-md-6">
+                    <img src="./assets/image/girl_with_tea.png" alt="girl_with_tea.png" class="w-100">
+                    <h2 class="max-w-461 op-80 ff_Poppins fw-400 fs-sm lh-24 text--black pt-44 pb-24 mb-0 ">We
+                        understand that each client is unique, which is why we tailor our treatments to your specific
+                        needs and concerns. Whether you're seeking laser hair removal, electrolysis for permanent hair
+                        removal, spider vein removal or treatment for acne scars.</h2>
+                    <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-p-white">Read More</button>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="max-w-466 ff_Playfair fw-500 fs-xl lh-57 mb-0 text-black pb-16">About Fabelectrolysis
+                    </h2>
+                    <p class="max-w-655 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black pb-40">At FabElectrolysis, we're
+                        more than just a skincare clinic – we're a welcoming environment where every individual can feel
+                        comfortable and valued. With a commitment to inclusivity and personalized care, we strive to
+                        create a supportive atmosphere where you can truly be yourself.</p>
+                    <img src="./assets/image/clinic_pic.png" alt="clinic_pic.png" class="w-100">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------------------------------------------------------ section_3 --------------------------------------------------->
+    <section class="py_clients">
+        <div class="container max-w-1440">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="max-w-341 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-24">Why Choose Us</h2>
+                    <p class="max-w-514 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0 pb-58">Expert, FDA-approved
+                        Electrolysis with Apilus xCell Pro. Tailored, effective, and the best choice for smooth,
+                        hair-free results. At FabElectrolysis, we understand that selecting a skincare clinic is a
+                        significant decision. </p>
+                    <div class="set_pic_items">
+                        <img src="./assets/image/laser_treatment.png" alt="laser_treatment.png" class="w-100">
+
+                        <div class="box_for">
+                            <h2 class="max-w-355 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0 pb-8">State-of-the-Art
+                                Technology:</h2>
+                            <p class="max-w-439 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">We use cutting-edge
+                                equipment such as the Candela GentleMax Pro and Apilus XCell Pro for precise and
+                                effective  treatments.</p>
+                        </div>
+                    </div>
+
+                    <div class="state_pt-50">
+                        <img src="./assets/image/three_girl_pic.png" alt="laser_treatment.png" class="w-100">
+
+                        <div class="box_for">
+                            <h2 class="max-w-429 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0 pb-8">Inclusive and
+                                Supportive Environment:</h2>
+                            <p class="max-w-436 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">We proudly support
+                                the LGBTQ+ community and welcome clients of all backgrounds and identities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 pt-172">
+
+                    <div>
+                        <img src="./assets/image/setting_two_girl.png" alt="laser_treatment.png" class="w-100">
+
+                        <div class="box_for ">
+                            <h2 class="max-w-315 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0 pb-8">Expertise and
+                                Experience:</h2>
+                            <p class="max-w-439 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">With our
+                                experienced and licensed team, we specialize in a wide range of cosmetic procedures.</p>
+                        </div>
+                    </div>
+
+                    <div class="state_pt-50">
+                        <img src="./assets/image/surgery_with_girl.png" alt="laser_treatment.png" class="w-100">
+
+                        <div class="box_for">
+                            <h2 class="max-w-315 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0 pb-8">Personalized
+                                Care:</h2>
+                            <p class="max-w-436 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">We craft
+                                individualized treatment plans tailored to your specific goals ensuring optimal results
+                                that reflect your personal goals.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------- section_4 ---------------------------------------->
+    <section class="py_clients bg-img_2">
+        <div class="container max-w-1440">
+            <div class="row">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="max-w-476 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-16">Meet Our Technicians</h2>
+                    <p class="max-w-577 op-80 ff_Poppins fs-sm fw-400 lh-24 text-black mb-0 pb-70">Expert technicians
+                        specializing in electrolysis and laser hair removal, utilizing Candela technology for top-notch
+                        care and optimal results.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="c_crd_five">
+                        <h2 class="max-w-202 ff_Playfair fw-400 fs-xlg lh-42 text-black mb-0 pb-8">Haya Fabber</h2>
+                        <p class="max-w-317 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0 pb-36">Specializes in
+                            laser, electrolysis, and the application of Candela technology.</p>
+                        <div>
+                            <img src="./assets/image/smile_girl.png" alt="smile_girl.png" class="w-100 pb-36">
+                            <div class="d-flex justify-content-center gap-19">
+                                <div class="mini_circl_1">
+                                    <img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+                                <div class="mini_circl_2">
+                                    <img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+                                <div class="mini_circl_3">
+                                    <img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="c_crd_five">
+                        <h2 class="max-w-202 ff_Playfair fw-400 fs-xlg lh-42 text-black mb-0 pb-8">Etty Fabber</h2>
+                        <p class="max-w-317 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0 pb-36">Specializes in
+                            laser, electrolysis, and the application of Candela technology.</p>
+                        <div>
+                            <img src="./assets/image/girl_white_cot.png" alt="smile_girl.png" class="w-100 pb-36">
+                            <div class="d-flex justify-content-center gap-19">
+                                <div class="mini_circl_1">
+                                    <img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+                                <div class="mini_circl_2">
+                                    <img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+                                <div class="mini_circl_3">
+                                    <img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!------------------------------------- section_5 -------------------------------------------------->
+    <section class="py_clients">
+        <div class="container max-w-1916">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="max-w-434 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-2 ">Explore Our Gallery</h2>
+                <p class="max-w-824 op-80 fw-400 fs-sm ff_Poppins fs-sm lh-24 text-black mb-0 pb-60 text-center">Our
+                    gallery is a curated collection of memorable moments, each telling a story of passion, dedication,
+                    and the remarkable experiences we create.</p>
+            </div>
+            <div class="scnd_sldr d-flex gap-3">
+                <div>
+                    <img src="./assets/image/item_frist.png" alt="item_frist.png" class="w-100">
+                </div>
+                <div>
+                    <img src="./assets/image/item_second.png" alt="item_frist.png" class="w-100">
+                </div>
+
+                <div>
+                    <img src="./assets/image/item_thrd.png" alt="item_frist.png" class="w-100">
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center align-items-center pt-40">
+                <button class="btn-3 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">See More</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-------------------------------------------- section_6 ------------------------------------>
+    <section class="py_clients">
+        <div class="container max-w-1440">
+            <div class="row">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="max-w-235 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-16">Contact Us</h2>
+                    <p class="max-w-863 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black nb-0 pb-60">Explore your options
+                        with a free consultation. Our experts will guide you through our equipment and address all your
+                        questions, ensuring you're informed and confident in your choices.</p>
+
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-xl-0 text-center">
+
+                    <div class="d-flex justify-content-center gap-4 flex-sm-nowrap flex-wrap mt-3">
+                        <div class="input_box_1 ">
+                            <input type="text" placeholder=" Name"
+                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                        </div>
+                        <div class="input_box_1">
+                            <input type="email" name="email" placeholder="Email"
+                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100 ">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center gap-4 flex-sm-nowrap flex-wrap mt-3 ">
+                        <div class="input_box_1">
+                            <input type="number" placeholder="Mobile No"
+                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline  w-100">
+                        </div>
+                        <div class="input_box_1">
+                            <input type="text" placeholder="Subject"
+                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                        </div>
+                    </div>
+
+                    <textarea name=" text" placeholder="Send Message"
+                        class="input_box_2 fs_16 fw_4 work_sans light_black mb-0 border-0 outline text-nowrap mt-4"></textarea>
+                    <div class=" mt-4">
+                        <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-p-white">Book Appointment</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="calender_box">
+                        <div class="d-flex justify-content-between">
+                            <h2 class="max-w-161 ff_Marcellus fw-400 fs-lg lh-28 text-black text-nowrap mb-0">February
+                                2024</h2>
+                            <div class="d-flex gap-3">
+                                <img src="./assets/image/svg/little_smbl.svg" alt="little_smbl.svg" class="w-100">
+                                <img src="./assets/image/svg/little-scnd_icon.svg" alt="little-scnd_icon.svg"
+                                    class="w-100">
+                            </div>
+
+                        </div>
+                        <div class="weeknd_nams d-flex gap-4">
+                            <p class="max-w-39 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Mo</p>
+                            <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Tu</p>
+                            <p class="max-w-37 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">We</p>
+                            <p class="max-w-28 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Th</p>
+                            <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Fr</p>
+                            <p class="max-w-34 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Sa</p>
+                            <p class="max-w-25 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Su</p>
+
+
+                        </div>
+                        <div class="degits_material d-flex gap-4">
+                            <div class="mini_round_crcl d-flex gap-2">
+                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0 text-center">1</p>
+                            </div>
+                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">2</p>
+                            </div>
+                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">3</p>
+                            </div>
+                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">4</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        </div>
+        <div class="container max-w-1078 d-flex justify-content-center">
+            <div class=" bix-box w-100 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="max-w-390 ff_Playfair fw-500 fs-xl lh-57 text-black text-center pb-18 mb-0">Free Consultation
+                </h2>
+                <p class="max-w-883 ff_Poppins op-80 fw-400 fs-sm lh-24 text-black text-center pb-34 mb-0">Explore your
+                    options with a free consultation. Our experts will guide you through our equipment and address all
+                    your questions, ensuring you're informed and confident in your choices.</p>
+                <div class="white_box d-sm-flex mt-3 mt-lg-0  p-1 ">
+                    <input class="fs-sm ff_Poppins fw-400 text-black border-0 ps-3 w-10 0" type="email" name="email"
+                        placeholder=" Enter your email">
+                    <button
+                        class=" btn_2 ff_Poppins fw-400 fs-sm lh-24 text-p-white text-nowrap mt-2 mt-sm-0 w-100">Submit</button>
+                </div>
+
+            </div>
+
+    </section>
+    <!------------------------------------------------ footer ------------------------------------------------------->
+    <footer class="bg-img_8 fotr_bg">
+        <div class=" container max-w-1737">
+            <div class=" row d-flex align-items-center py-footer pt-78">
+                <div class="col-12 col-sm-4  col-lg-4">
+                    <div class=" d-flex flex-column">
+                        <img class="footer-max" src="./assets/image/svg/foter_logo_icon.svg" alt="logo">
+                        <p class=" max-w-350 op-80 ff_Poppins fs-sm lh-24 text-p-white pt-2 pb-3 mb-0">At
+                            FabElectrolysis, we go beyond skincare — we cultivate an inviting space where every
+                            individual is embraced and valued. </p>
+                        <h2 class="text-p-white ff_Poppins fw-500 fs-md lh-27 mb-0">Follow Us</h2>
+                        <div class=" d-flex align-items-center gap-12 pt-24">
+
+                            <div class="mini_white_circle d-flex align-items-center justify-content-center">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <img src="./assets/image/svg/ing_symbl.svg" alt="ing_symbl.svg" class="w-100">
+                                </a>
+
+                            </div>
+                            <div class="mini_white_circle d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <img src="./assets/image/svg/fotr_insta_icon.svg" alt="ing_symbl.svg" class="w-100">
+                                </a>
+
+                            </div>
+                            <div class="mini_white_circle d-flex align-items-center justify-content-center">
+                                <a href="https://www.linkedin.com/login" target="_blank">
+                                    <img src="./assets/image/svg/fotr_facebok_icon.svg" alt="ing_symbl.svg"
+                                        class="w-100">
+                                </a>
+
+                            </div>
+                            <div class="mini_white_circle d-flex align-items-center justify-content-center">
+                                <a href="https://www.linkedin.com/login" target="_blank">
+                                    <img src="./assets/image/svg/foter_twitr_icon.svg" alt="ing_symbl.svg"
+                                        class="w-100">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-6 mt-4 col-sm-4 mt-sm-0 justify-content-sm-center  col-lg-2 d-flex justify-content-lg-end">
+                    <ul class=" d-flex ul-p-m flex-column gap_8">
+                        <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white ">
+                            Main Menu
+                        </li>
+                        <li><a class="op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Home</a></li>
+                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">About Us</a></li>
+                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Service</a>
+                        </li>
+                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Our Team</a>
+                        </li>
+                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Contact Us</a>
+                        </li>
+                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Book
+                                Appointment</a></li>
+                    </ul>
+                </div>
+                <div
+                    class="col-6 mt-4 col-sm-4 mt-sm-0 justify-content-sm-center  col-lg-2 d-flex justify-content-lg-center">
+                    <ul class=" d-flex ul-p-m flex-column gap_8">
+                        <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white">
+                            Useful Links
+                        </li>
+                        <li><a class=" ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Terms & Conditions</a>
+                        </li>
+                        <li><a class=" ff_Manrope ff_Poppins fw-400 fs-sm lh-24 mb-0 text-p-white" href="">Privacy
+                                Policy</a></li>
+                        <li><a class=" ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Skincare Routine</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 mt-4 mt-lg-0  col-lg-4 d-flex justify-content-lg-center">
+                    <div class="d-flex flex-column gap_8">
+                        <h2 class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white">
+                            Contacts
+                        </h2>
+                        <div class=" d-flex flex-column gap_8">
+                            <div class=" d-flex align-items-center gap-16 ">
+                                <img src="./assets/image/svg/phone_icon.svg" alt="phone_icon.svg">
+                                <a class=" mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white" href=" tel:+0000000000">+1
+                                    (718) 360-2902</a>
+                            </div>
+                            <div class=" d-flex align-items-center gap-16 ">
+                                <img src="./assets/image/svg/mail_box.svg" alt="mail_box.svg">
+
+                                <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
+                                    href="mailto:info@noblemindit@email.com">FabElectrolysis@gmail.com</a>
+                            </div>
+                            <div class=" d-flex align-items-center gap-16 ">
+                                <img src="./assets/image/svg/location_icon.svg" alt="mail_box.svg">
+
+                                <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
+                                    href="mailto:info@noblemindit@email.com">1322 Coney Island Avenue Brooklyn, NY
+                                    11230</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_line"></div>
+            <div class=" d-flex justify-content-center pt-20 pb-20">
+                <h2 class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white">© 2024 Fab Electrolysis. All Rights Reserved
+                </h2>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
