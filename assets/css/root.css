@@ -1,22 +1,22 @@
-:root{
+:root {
     /* font-size */
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 24px;
-    --fs-xlg:36px;
+    --fs-xlg: 36px;
     --fs-xl: 48px;
-    --fs-2xl: 45px;
-    
+    --fs-2xl: 71px;
+
 
     /* line-height */
-    --line-24: 24px;
-    --line-26: 26px;
-    --line-28: 28px;
-    --line-57: 57.6px;
-    --line-63: 63.98px;
-    --line-95: 95.3px;
-    --line-32: 32px;
-  
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-28: 28px;
+    --lh-57: 57.6px;
+    --lh-63: 63.98px;
+    --lh-95: 95.3px;
+    --lh-32: 32px;
+
 
     /* FONT-WEIGHT */
     --fw-300: 300;
@@ -29,7 +29,7 @@
 
     --blur2: #1219D220;
     --blur: #01010140;
-    --text-d-pink:#F498A2;
+    --text-d-pink: #F498A2;
     --text-color-black: #000000;
     --text-white: #F4F4F4;
     --black: #010101;
@@ -42,22 +42,23 @@
     --blue2: #0389FF;
     --bg-blue-1: #140F40;
     --nav-bg-1: #03050A;
-    --drkred:#FF2901 ;
-    --drkorng:#ff6b0a;
+    --drkred: #FF2901;
+    --drkorng: #ff6b0a;
 }
 
-.text-d-pink{
+.text-d-pink {
     color: var(--text-d-pink);
 }
 
-.text-black{
+.text-black {
     color: var(--text-color-black);
 
 }
-.text-p-white{
+
+.text-p-white {
     color: var(--text-p-white);
 }
-   
+
 
 .fw-400 {
     font-weight: var(--fw-400);
@@ -94,7 +95,8 @@
 .fs-md {
     font-size: var(--fs-md);
 }
-.fs-xlg{
+
+.fs-xlg {
     font-size: var(--fs-xlg);
 }
 
@@ -147,15 +149,19 @@
 .ff_Inter {
     font-family: "Inter", sans-serif;
 }
+
 .ff_Playfair {
     font-family: "Playfair Display", serif;
 }
+
 .ff_Poppins {
     font-family: "Poppins", sans-serif;
 }
+
 .ff_Marcellus {
     font-family: "Marcellus SC", serif;
 }
+
 .ff_Manrope {
     font-family: "Manrope", sans-serif;
 }
@@ -171,111 +177,42 @@
 .op-60 {
     opacity: 60%;
 }
+
 .op-90 {
     opacity: 90%;
 }
-@media (min-width:1200px) {
-    :root{
+
+
+
+@media (max-width:576px) {
+    :root {
         /* font-size */
-        --fs-sm: 16px;
-        --fs-md: 18px;
-        --fs-lg: 24px;
-        --fs-xlg:36px;
-        --fs-xl: 48px;
-        --fs-2xl:71px;
+            --fs-sm: 16px;
+            --fs-md: 18px;
+            --fs-lg: 24px;
+            --fs-xlg: 36px;
+            --fs-xl: 35px;
+            --fs-2xl: 71px;
         
+        
+            /* line-height */
+            --lh-24: 24px;
+            --lh-26: 26px;
+            --lh-28: 28px;
+            --lh-57: 40px;
+            --lh-63: 63.98px;
+            --lh-95: 95.3px;
+            --lh-32: 32px;
     
-        /* line-height */
-        --line-24: 24px;
-        --line-26: 26px;
-        --line-28: 28px;
-        --line-57: 57.6px;
-        --line-63: 63.98px;
-        --line-95: 95.3px;
-        --line-32: 32px;
-      
     
-        /* FONT-WEIGHT */
-        --fw-300: 300;
-        --fw-400: 400;
-        --fw-500: 500;
-        --fw-600: 600;
-        --fw-700: 700;
-        --fw-800: 800;
-        --fw-900: 900;
+            /* FONT-WEIGHT */
+            --fw-300: 300;
+            --fw-400: 400;
+            --fw-500: 500;
+            --fw-600: 600;
+            --fw-700: 700;
+            --fw-800: 800;
+            --fw-900: 900;
     
-       
-    }
-    
-   
-    
-}
-
-@media (min-width:768px) {
-    :root {
-
-         /* font-size */
-    --fs-sm: 16px;
-    --fs-md: 18px;
-    --fs-lg: 24px;
-    --fs-xl: 48px;
-    --fs-2xl: 71px;
-    
-
-    /* line-height */
-    --line-24: 24px;
-    --line-26: 26px;
-    --line-28: 28px;
-    --line-57: 57.6px;
-    --line-63: 63.98px;
-    --line-95: 95.3px;
-    --line-32: 32px;
-  
-    }
-
-}
-
-@media (min-width:992px) {
-    :root {
- /* font-size */
- --fs-sm: 16px;
- --fs-md: 18px;
- --fs-lg: 24px;
- --fs-xl: 48px;
- --fs-2xl: 50px;
- 
-
- /* line-height */
- --line-24: 24px;
- --line-26: 26px;
- --line-28: 28px;
- --line-57: 57.6px;
- --line-63: 63.98px;
- --line-95: 95.3px;
- --line-32: 32px;
-
-    }
-}
-
-@media (max-width:992px) {
-    :root {
-
-        /* font-size */
-   --fs-sm: 16px;
-   --fs-md: 18px;
-   --fs-lg: 24px;
-   --fs-xl: 43px;
-   --fs-2xl: 44px;
-   
-
-   /* line-height */
-   --line-24: 24px;
-   --line-26: 26px;
-   --line-28: 28px;
-   --line-57: 57.6px;
-   --line-63: 63.98px;
-   --line-95: 95.3px;
-   --line-32: 32px;
- 
-   }
+        }
 }
