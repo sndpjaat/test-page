@@ -1,9 +1,16 @@
-function openNav() {
-  document.getElementById("navbar").classList.toggle("start-0");
-  document.body.classList.toggle("overflow_hidden");
-  document.querySelector(".menu").classList.toggle("cross")
-}
-
+const menuicon = document.querySelector(".menuicon");
+const menulist = document.querySelector(".menulist");
+const navlink = document.querySelectorAll(".nav-links")
+navlink.forEach(a => a.addEventListener("click", () => {
+    menulist.classList.remove("show");
+    document.body.classList.remove("overflow-hidden");
+    menuicon.classList.toggle("show");
+}))
+menuicon.addEventListener("click", () => {
+    menulist.classList.toggle("show");
+    document.body.classList.toggle("overflow-hidden");
+    menuicon.classList.toggle("show");
+});
 
 // preloader
 document.addEventListener("DOMContentLoaded", function () {
@@ -24,12 +31,15 @@ $('.scnd_sldr').slick({
   dots: false,
   infinite: false,
   speed: 300,
-  infinite: true,
   centerMode: true,
-  variableWidth: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  infinite: true,
+  // centerMode: true,
+  // variableWidth: true,
   arrows: false,
   autoplay: false,
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
   responsive: [
     {

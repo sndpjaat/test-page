@@ -27,24 +27,25 @@
     <section>
         <nav class=" py-navbar">
             <div class="container max-w-1440  ">
-                <div class=" d-flex mb-0 gap-24 align-items-center justify-content-md-between  mobile_view" id="navbar">
+                <div class=" d-flex mb-0 gap-24 align-items-center align-items-md-start justify-content-between "
+                    id="navbar">
 
-                    <ul class="d-flex gap-24 m-0 p-0   flex-column flex-md-row ">
+                    <ul class="d-flex gap-24 m-0 p-0   flex-column flex-md-row  menulist  align-items-center">
 
                         <li><a href="#Home"
-                                class=" home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                class=" home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black  nav-links link hoverline hoverline textanimation"
                                 onclick="openNav()">Home</a> </li>
                         <li><a href="#About"
-                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black  nav-links link hoverline hoverline textanimation"
                                 onclick="openNav()">About Us</a> </li>
                         <li><a href="#Service"
-                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black  nav-links link hoverline hoverline textanimation"
                                 onclick="openNav()">Service</a> </li>
                         <li><a href="#Our"
-                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black  nav-links link hoverline hoverline textanimation"
                                 onclick="openNav()">Our Team</a> </li>
                         <li><a href="#Gallery"
-                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black hoverline hoverline textanimation"
+                                class="home outfit op-70 ff_Inter fw-400 fs-sm lh-32 text-black  nav-links link hoverline hoverline textanimation"
                                 onclick="openNav()">Gallery</a> </li>
                     </ul>
                     <div class=" m-0 p-0 d-flex align-items-ce gap-10 ">
@@ -53,11 +54,16 @@
 
                     <div class="d-flex ">
 
-                        <div class="gap-19 d-flex ">
+                        <div class="gap-19 d-flex d-none d-md-block">
                             <button class=" btn_1 ff_Inter fw-500 fs-sm lh-32 text-black">Log In</button>
                             <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-black">Contact Us</button>
                         </div>
 
+                    </div>
+                    <div class="menuicon d-flex flex-column d-block d-lg-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
                     </div>
                 </div>
 
@@ -78,9 +84,9 @@
 
             </div>
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="text_box ">
-                        <h2 class="max-w-523 ff_Playfair fw-800 fs-2xl lh-95 text-p-white mb-0 pt-85 pb-7">Welcome to
+                        <h2 class="max-w-523 ff_Playfair fw-800 fs-2xl lh-95 text-p-white mb-0 pt-85 pb-2">Welcome to
                             Facvbnjkdfgb Electrolysis </h2>
                         <p class="max-w-673 ff_Playfair fw-400 fs-xl lh-63 text-p-white pb-14 fst-italic mb-0">Your
                             Journey to Timeless Beauty</p>
@@ -92,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 d-flex justify-content-end">
+                <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
                     <img src="./assets/image/beautiful_young_woman_with_beauty_long-curly_hair.png"
                         alt="beautiful_young_woman_with_beauty_long-curly_hair.png" class="w-100">
                 </div>
@@ -101,7 +107,7 @@
         </div>
     </section>
     <!--------------------------------------- section_1 ------------------------------------>
-    <section class=" py_clients position-relative">
+    <section class=" py_clients position-relative" id="About">
         <div class="position-absolute z-0 frst_sction_elps">
             <img src="./assets/image/svg/frst_sction_elps.svg" alt="frst_sction_elps.svg" class="w-100">
 
@@ -122,9 +128,14 @@
 
             </div>
             <div class="row pt-50 ">
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center justify-content-md-end">
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center z-2 justify-content-md-end">
                     <div class="box_one">
-                        <img src="./assets/image/girl_with_treatment.png" alt="girl_with_treatment.png" class="w-100">
+                        <div class="position-relative">
+                            <img src="./assets/image/girl_with_treatment.png" alt="girl_with_treatment.png"
+                                class="w-100">
+                            <img class=" position-absolute arrow_position" src="./assets/image/svg/play.svg"
+                                alt="play-icon">
+                        </div>
 
                         <div class="text_house">
                             <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Electrolysis</h2>
@@ -140,9 +151,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0  d-flex justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0 z-2  d-flex justify-content-center">
                     <div class="box_one">
-                        <img src="./assets/image/waching_screen.png" alt="girl_with_treatment.png" class="w-100">
+                        <div class=" position-relative">
+                            <img src="./assets/image/waching_screen.png" alt="girl_with_treatment.png" class="w-100">
+                            <img class=" position-absolute arrow_position" src="./assets/image/svg/play.svg"
+                                alt="play-icon">
+
+                        </div>
 
                         <div class="text_house">
                             <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Free Consultation
@@ -160,9 +176,14 @@
                     </div>
                 </div>
                 <div
-                    class="col-12 col-md-12 col-lg-4 pt-4 pt-lg-0 d-flex justify-content-center justify-content-lg-start">
+                    class="col-12 col-md-12 col-lg-4 pt-4 pt-lg-0 z-2 d-flex justify-content-center justify-content-lg-start">
                     <div class="box_one">
-                        <img src="./assets/image/old_young_gir.png" alt="girl_with_treatment.png" class="w-100">
+                        <div class=" position-relative">
+                            <img src="./assets/image/old_young_gir.png" alt="girl_with_treatment.png" class="w-100">
+                            <img class=" position-absolute arrow_position" src="./assets/image/svg/play.svg"
+                                alt="play-icon">
+
+                        </div>
 
                         <div class="text_house">
                             <h2 class="ff_Marcellus fw-400 fs-lg lh-28 text-color-black pb-8 mb-0">Fine Lines and
@@ -191,7 +212,7 @@
 
     </section>
     <!-------------------------------------------------- section_2 ------------------------------------------------->
-    <section class="bg-img_2 position-relative ">
+    <section class="bg-img_2 position-relative " id="Service">
         <div class="position-absolute z-0 sction_scnd_frst_elps d-none d-md-block">
             <img src="./assets/image/svg/sction_scnd_frst_elps.svg" alt="sction_scnd_frst_elps.svg" class="w-100">
         </div>
@@ -223,7 +244,7 @@
     </section>
 
     <!------------------------------------------------------ section_3 --------------------------------------------------->
-    <section class="py_clients position-relative ">
+    <section class="py_clients position-relative " id="">
         <div class="position-absolute z-0 sction_scnd_elps">
             <img src="./assets/image/svg/sction_scnd_elps.svg" alt="sction_scnd_elps.svg" class="w-100">
 
@@ -302,7 +323,7 @@
         </div>
     </section>
     <!-------------------------------------------- section_4 ---------------------------------------->
-    <section class="py_clients bg-img_2 position-relative">
+    <section class="py_clients bg-img_2 position-relative" id="Our">
         <div class="position-absolute z-0 sction_for_frst_elps">
             <img src="./assets/image/svg/sction_for_frst_elps.svg" alt="sction_for_frst_elps.svg" class="w-100">
 
@@ -325,15 +346,14 @@
                             <img src="./assets/image/smile_girl.png" alt="smile_girl.png" class="w-100 pb-36">
                             <div class="d-flex justify-content-center gap-19">
                                 <div class="mini_circl_1 c_p">
-                                    <img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg">
-
+                                    <a href="https://www.facebook.com/"target="_blank"><img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg"></a>
                                 </div>
                                 <div class="mini_circl_2 c_p">
-                                    <img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg">
+                                    <a href="https://x.com/"target="_blank"><img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg"></a>
 
                                 </div>
                                 <div class="mini_circl_3 c_p">
-                                    <img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg">
+                                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg"></a>
 
                                 </div>
 
@@ -352,15 +372,15 @@
                             <img src="./assets/image/girl_white_cot.png" alt="smile_girl.png" class="w-100 pb-36">
                             <div class="d-flex justify-content-center gap-19">
                                 <div class="mini_circl_1 c_p">
-                                    <img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg">
+                                    <a href="https://www.facebook.com/"><img src="./assets/image/svg/fscbok_icon.svg" alt="fscbok_icon.svg"></a>
 
                                 </div>
                                 <div class="mini_circl_2 c_p">
-                                    <img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg">
+                                  <a href="https://x.com/"><img src="./assets/image/svg/cros_icon.svg" alt="fscbok_icon.svg"></a>
 
                                 </div>
                                 <div class="mini_circl_3 c_p">
-                                    <img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg">
+                                   <a href="https://www.instagram.com/"><img src="./assets/image/svg/insta_icon.svg" alt="fscbok_icon.svg"></a>
 
                                 </div>
 
@@ -374,7 +394,7 @@
         </div>
     </section>
     <!------------------------------------- section_5 -------------------------------------------------->
-    <section class="py_clients position-relative">
+    <section class="py_clients position-relative" id="Gallery">
         <div class="position-absolute z-0 sction_five_elps">
             <img src="./assets/image/svg/sction_five_elps.svg" alt="sction_five_elps.svg" class="w-100">
 
@@ -382,148 +402,180 @@
         <div class="container max-w-1916">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h2 class="max-w-434 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-2 ">Explore Our Gallery</h2>
-                <p class="max-w-824 op-80 fw-400 fs-sm ff_Poppins fs-sm lh-24 text-black mb-0 pb-60 text-center">Our
+                <p class="max-w-824 op-80 fw-400 fs-sm ff_Poppins fs-sm lh-24 text-black mb-0 pb-59 text-center">Our
                     gallery is a curated collection of memorable moments, each telling a story of passion, dedication,
                     and the remarkable experiences we create.</p>
             </div>
-            <div class="scnd_sldr d-flex gap-3">
-                <div>
-                    <img src="./assets/image/item_frist.png" alt="item_frist.png" class="w-100">
+            <!-- <div class="scnd_sldr d-flex gap-3">
+                <div class="h-100">
+                    <img class="h-100" src="./assets/image/item_frist.png" alt="item_frist.png" class="w-100">
                 </div>
-                <div>
-                    <img src="./assets/image/item_second.png" alt="item_frist.png" class="w-100">
+                <div class="h-100">
+                    <img class="h-100 w-100" src="./assets/image/item_second.png" alt="item_frist.png" class="w-100">
                 </div>
 
-                <div>
-                    <img src="./assets/image/item_thrd.png" alt="item_frist.png" class="w-100">
+                <div class="h-100">
+                    <img class="h-100 w-100" src="./assets/image/item_thrd.png" alt="item_frist.png" class="w-100">
                 </div>
-                <div>
-                    <img src="./assets/image/item_frist.png" alt="item_frist.png" class="w-100">
+                <div class="h-100">
+                    <img class="h-100 w-100" src="./assets/image/item_frist.png" alt="item_frist.png" class="w-100">
                 </div>
-                <div>
-                    <img src="./assets/image/item_second.png" alt="item_frist.png" class="w-100">
+                <div class="h-100">
+                    <img class="h-100 w-100" src="./assets/image/item_second.png" alt="item_frist.png" class="w-100">
                 </div>
-                
-                <div>
-                    <img src="./assets/image/item_thrd.png" alt="item_frist.png" class="w-100">
+
+                <div class="h-100">
+                    <img class="h-100 w-100" src="./assets/image/item_thrd.png" alt="item_frist.png" class="w-100">
                 </div>
-                
-            </div>
+
+            </div> -->
             <div class="d-flex justify-content-center align-items-center pt-40">
-                <button class="btn-3 ff_Poppins fw-400 fs-sm lh-24 text-d-pink">See More</button>
+                <button class="btn-4 ff_Poppins fw-400 fs-sm lh-24 text-d-pink z-2">See More</button>
             </div>
 
         </div>
 
     </section>
     <!-------------------------------------------- section_6 ------------------------------------>
-    <section class="py_clients">
+    <section class="py_clients" id="Our">
         <div class="container max-w-1440">
             <div class="row">
                 <div class="d-flex flex-column justify-content-center align-items-center">
-                    <h2 class="max-w-235 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-16">Contact Us</h2>
-                    <p class="max-w-863 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black nb-0 pb-60">Explore your options
+                    <h2 class="max-w-235 ff_Playfair fw-500 fs-xl lh-57 text-black mb-0 pb-2">Contact Us</h2>
+                    <p class="max-w-863 op-80 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0 pb-60">Explore your options
                         with a free consultation. Our experts will guide you through our equipment and address all your
                         questions, ensuring you're informed and confident in your choices.</p>
 
                 </div>
                 <div class="col-12 col-md-6 mt-4 mt-xl-0 text-center">
 
-                    <div class="d-flex justify-content-center gap-4 flex-sm-nowrap flex-wrap mt-3">
-                        <div class="input_box_1 ">
-                            <input type="text" placeholder=" Name"
-                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                    <div class="d-flex justify-content- center gap-4 flex-sm-nowrap flex-wrap mt-3 w-100">
+                        <div class=" d-flex justify-content-start flex-column align-items-start w-100">
+                            <p class="op-60 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">Name</p>
+                            <div class="input_box_1">
+                                <input type="text" class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                            </div>
                         </div>
-                        <div class="input_box_1">
-                            <input type="email" name="email" placeholder="Email"
-                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100 ">
+                        <div class=" d-flex justify-content-start flex-column align-items-start w-100">
+                            <p class="op-60 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">Email</p>
+
+                            <div class="input_box_1">
+
+                                <input type="email" name="email"
+                                    class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100 ">
+                            </div>
                         </div>
+
                     </div>
-                    <div class="d-flex justify-content-center gap-4 flex-sm-nowrap flex-wrap mt-3 ">
-                        <div class="input_box_1">
-                            <input type="number" placeholder="Mobile No"
-                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline  w-100">
+                    <div class="d-flex justify-content-cent er gap-4 flex-sm-nowrap flex-wrap mt-3 w-100 ">
+                        <div class="d-flex justify-content-start flex-column align-items-start w-100">
+                            <p class="op-60 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">Mobile No</p>
+
+                            <div class="input_box_1">
+                                <input type="number"
+                                    class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline  w-100">
+                            </div>
                         </div>
-                        <div class="input_box_1">
-                            <input type="text" placeholder="Subject"
-                                class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                        <div class="d-flex justify-content-start flex-column align-items-start w-100">
+                            <p class="op-60 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">Subject</p>
+
+                            <div class="input_box_1">
+                                <input type="text" class="fs_16 fw_4 work_sans light_black mb-0 border-0 outline w-100">
+                            </div>
                         </div>
                     </div>
 
-                    <textarea name=" text" placeholder="Send Message"
-                        class="input_box_2 fs_16 fw_4 work_sans light_black mb-0 border-0 outline text-nowrap mt-4"></textarea>
-                    <div class=" mt-4">
-                        <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-p-white">Book Appointment</button>
+                    <div class="d-flex justify-content-start flex-column align-items-start mt-4">
+                        <p class="op-60 ff_Poppins fw-400 fs-sm lh-24 text-black mb-0">Message</p>
+                        <textarea name=" text"
+                            class="input_box_2 fs_16 fw_4 work_sans light_black mb-0 border-0 outline text-nowrap mt-1"></textarea>
+                        <div class=" mt-4">
+                            <button class="btn_2 ff_Inter fw-500 fs-sm lh-32 text-p-white">Book Appointment</button>
+                        </div>
                     </div>
+
+
                 </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="calender_box">
-                        <div class="d-flex justify-content-between">
-                            <h2 class="max-w-161 ff_Marcellus fw-400 fs-lg lh-28 text-black text-nowrap mb-0">February
-                                2024</h2>
-                            <div class="d-flex gap-3">
-                                <img src="./assets/image/svg/little_smbl.svg" alt="little_smbl.svg" class="w-100">
-                                <img src="./assets/image/svg/little-scnd_icon.svg" alt="little-scnd_icon.svg"
-                                    class="w-100">
+                <div class="col-12 col-md-6 pt-4">
+                    <div class="calander_box">
+                        <div class=" d-flex align-items-center justify-content-between">
+                            <p class="ff_Marcellus fw-400 fs-lg lhg-28 text-black ">February 2024</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <img src="./assets/image/svg/Previous-arrow.svg" alt="svg/Previous-arrow.svg" class="c_p">
+                                <img src="./assets/image/svg/Next-arrow.svg" alt="svg/Previous-arrow.svg" class="c_p">
                             </div>
-
                         </div>
-                        <div class="weeknd_nams d-flex gap-4">
-                            <p class="max-w-39 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Mo</p>
-                            <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Tu</p>
-                            <p class="max-w-37 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">We</p>
-                            <p class="max-w-28 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Th</p>
-                            <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Fr</p>
-                            <p class="max-w-34 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Sa</p>
-                            <p class="max-w-25 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Su</p>
-
-
-                        </div>
-                        <div class="degits_material d-flex gap-4">
-                            <div class="mini_round_crcl d-flex gap-2">
-                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0 text-center">1</p>
-                            </div>
-                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
-                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">2</p>
-                            </div>
-                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
-                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">3</p>
-                            </div>
-                            <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
-                                <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-p-white mb-0">4</p>
-                            </div>
-
+                        <img class="max-width-412 w-100" src="./assets/image/calendar_img.png" alt="">
+                    </div>
+                    <!-- <img src="./assets/image/calendar_img.png" alt="calendar_img.png" class="w-100 max-w-467">  -->
+                    <!-- <div class="calender_box">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="max-w-161 ff_Marcellus fw-400 fs-lg lh-28 text-black text-nowrap mb-0">February
+                            2024</h2>
+                        <div class="d-flex gap-3">
+                            <img src="./assets/image/svg/little_smbl.svg" alt="little_smbl.svg" class="w-100">
+                            <img src="./assets/image/svg/little-scnd_icon.svg" alt="little-scnd_icon.svg"
+                                class="w-100">
                         </div>
 
                     </div>
+                    <div class="weeknd_nams d-flex gap-4">
+                        <p class="max-w-39 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Mo</p>
+                        <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Tu</p>
+                        <p class="max-w-37 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">We</p>
+                        <p class="max-w-28 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Th</p>
+                        <p class="max-w-21 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Fr</p>
+                        <p class="max-w-34 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Sa</p>
+                        <p class="max-w-25 ff_Marcellus fw-400 fs-lg lh-28 text-black mb-0">Su</p>
+
+
+                    </div>
+                    <div class="degits_material d-flex gap-5">
+                        <div class="mini_round_crcl d-flex gap-2">
+                            <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-d-pink mb-0 text-center">1</p>
+                        </div>
+                        <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                            <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-d-pink mb-0">2</p>
+                        </div>
+                        <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                            <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-d-pink mb-0">3</p>
+                        </div>
+                        <div class="mini_round_crcl d-flex justify-content-center align-items-center gap-4">
+                            <p class=" ff_Marcellus fw-400 fs-lg lh-28 text-d-pink mb-0">4</p>
+                        </div>
+                       
+                    </div>
+
+                </div> -->
                 </div>
             </div>
-        </div>
-        <div class="container max-w-1078 d-flex justify-content-center">
-            <div class=" bix-box w-100 d-flex flex-column justify-content-center align-items-center">
-                <h2 class="max-w-390 ff_Playfair fw-500 fs-xl lh-57 text-black text-center pb-18 mb-0">Free Consultation
-                </h2>
-                <p class="max-w-883 ff_Poppins op-80 fw-400 fs-sm lh-24 text-black text-center pb-34 mb-0">Explore your
-                    options with a free consultation. Our experts will guide you through our equipment and address all
-                    your questions, ensuring you're informed and confident in your choices.</p>
-                <div class="white_box d-sm-flex mt-3 mt-lg-0  p-1 ">
-                    <input class="fs-sm ff_Poppins fw-400 text-black border-0 ps-3 w-10 0" type="email" name="email"
-                        placeholder=" Enter your email">
-                    <button
-                        class=" btn_2 ff_Poppins fw-400 fs-sm lh-24 text-p-white text-nowrap mt-2 mt-sm-0 w-100">Submit</button>
-                </div>
+            <div class="container max-w-1078 d-flex justify-content-center">
+                <div class=" bix-box w-100 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="max-w-390 ff_Playfair fw-500 fs-xl lh-57 text-black text-center pb-18 mb-0">Free
+                        Consultation
+                    </h2>
+                    <p class="max-w-883 ff_Poppins op-80 fw-400 fs-sm lh-24 text-black text-center pb-34 mb-0">Explore
+                        your
+                        options with a free consultation. Our experts will guide you through our equipment and address
+                        all
+                        your questions, ensuring you're informed and confident in your choices.</p>
+                    <div class="white_box d-sm-flex mt-3 mt-lg-0  p-1 ">
+                        <input class="fs-sm ff_Poppins fw-400 text-black border-0 ps-3 w-10 0" type="email" name="email"
+                            placeholder=" Enter your email">
+                        <button
+                            class=" btn_2 ff_Poppins fw-400 fs-sm lh-24 text-p-white text-nowrap mt-2 mt-sm-0 w-100">Submit</button>
+                    </div>
 
+                </div>
             </div>
-        </div>
 
     </section>
     <!------------------------------------------------ footer ------------------------------------------------------->
-    <footer class="bg-img_8 fotr_bg">
-        <div class=" container max-w-1737">
-            <div class="row padding_top_78">
-                <div class="col-5">
-                    <div class=" d-flex flex-column">
+    <footer class="bg-img_8 fotr_bg" id="Service">
+        <div class=" container max-w-1341">
+            <div class="row footer_padding">
+                <div class="col-12 col-lg-5 col-md-6">
+                    <div class=" d-flex flex-column ">
                         <img class="c_p" src="./assets/image/svg/foter_logo_icon.svg" alt="logo">
                         <p class=" max-w-350 op-80 ff_Poppins fs-sm lh-24 text-white pt-2 pb-3 mb-0">At
                             FabElectrolysis, we go beyond skincare — we cultivate an inviing space where every
@@ -564,60 +616,75 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2  mt-sm-0 justify-content-start d-flex justify-content-lg-end pt-4 pt-md-0">
-                    <ul class=" d-flex ul-p-m flex-column gap_8">
-                        <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white ">
-                            Main Menu
-                        </li>
-                        <li><a class="op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Home</a></li>
-                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">About Us</a></li>
-                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Service</a>
-                        </li>
-                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Our Team</a>
-                        </li>
-                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Contact Us</a>
-                        </li>
-                        <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Book
-                                Appointment</a></li>
-                    </ul>
-                </div>
-                <div class="col-2 mt-sm-0  justify-content-start d-flex justify-content-lg-center">
-                    <ul class=" d-flex ul-p-m flex-column gap_8">
-                        <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white">
-                            Useful Links
-                        </li>
-                        <li><a class=" ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Terms & Conditions</a>
-                        </li>
-                        <li><a class=" ff_Manrope ff_Poppins fw-400 fs-sm lh-24 mb-0 text-p-white" href="">Privacy
-                                Policy</a></li>
-                        <li><a class=" ff_Poppins fw-400 fs-sm lh-24 text-p-white mb-0" href="">Skincare Routine</a>
-                        </li>
+                <div class="col-12 col-lg-7 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-12  mt-sm-0 justify-content-start d-flex justify-content-lg-end pt-4 pt-md-0">
+                            <ul class=" d-flex ul-p-m flex-column gap_8">
+                                <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white ">
+                                    Main Menu
+                                </li>
+                                <li><a class="op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white hoverline hoverline  mb-0"
+                                        href="">Home</a></li>
+                                <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white hoverline hoverline  mb-0"
+                                        href="">About Us</a></li>
+                                <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white hoverline hoverline  mb-0"
+                                        href="">Service</a>
+                                </li>
+                                <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white hoverline hoverline  mb-0"
+                                        href="">Our Team</a>
+                                </li>
+                                <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white hoverline hoverline  mb-0"
+                                        href="">Contact Us</a>
+                                </li>
+                                <li><a class=" op-80 ff_Poppins fw-400 fs-sm lh-24 text-p-white  hoverline hoverline mb-0"
+                                        href="">Book
+                                        Appointment</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12 mt-sm-0  justify-content-start d-flex justify-content-lg-center">
+                            <ul class=" d-flex ul-p-m flex-column gap_8">
+                                <li class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white">
+                                    Useful Links
+                                </li>
+                                <li><a class=" ff_Poppins fw-400 fs-sm lh-24 hoverline hoverline text-p-white mb-0"
+                                        href="">Terms & Conditions</a>
+                                </li>
+                                <li><a class=" ff_Manrope ff_Poppins fw-400 hoverline hoverline fs-sm lh-24 mb-0 text-p-white"
+                                        href="">Privacy
+                                        Policy</a></li>
+                                <li><a class=" ff_Poppins fw-400 fs-sm lh-24 hoverline hoverline text-p-white mb-0"
+                                        href="">Skincare Routine</a>
+                                </li>
 
-                    </ul>
-                </div>
-                <div class="col-3  d-flex justify-content-lg-center">
-                    <div class="d-flex flex-column gap_8">
-                        <h2 class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white pb-2">
-                            Contacts
-                        </h2>
-                        <div class=" d-flex flex-column gap-3">
-                            <div class=" d-flex align-items-center gap-16 ">
-                                <img src="./assets/image/svg/phone_icon.svg" alt="phone_icon.svg">
-                                <a class=" mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white" href=" tel:+9817794609">+1
-                                    (718) 360-2902</a>
-                            </div>
-                            <div class=" d-flex align-items-center gap-16 ">
-                                <img src="./assets/image/svg/mail_box.svg" alt="mail_box.svg">
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-12  d-flex justify-content-lg-center">
+                            <div class="d-flex flex-column gap_8">
+                                <h2 class="ff_Poppins fw-500 fs-md lh-27 mb-0 text-p-white pb-2">
+                                    Contacts
+                                </h2>
+                                <div class=" d-flex flex-column gap-3">
+                                    <div class=" d-flex align-items-center gap-16 ">
+                                        <img src="./assets/image/svg/phone_icon.svg" alt="phone_icon.svg">
+                                        <a class=" mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
+                                            href=" tel:+9817794609">+1
+                                            (718) 360-2902</a>
+                                    </div>
+                                    <div class=" d-flex align-items-center gap-16 ">
+                                        <img src="./assets/image/svg/mail_box.svg" alt="mail_box.svg">
 
-                                <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
-                                    href="mailto:info@noblemindit@email.com">FabElectrolysis@gmail.com</a>
-                            </div>
-                            <div class=" d-flex align-items-center gap-16 ">
-                                <img src="./assets/image/svg/location_icon.svg" alt="mail_box.svg">
+                                        <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
+                                            href="mailto:info@noblemindit@email.com">FabElectrolysis@gmail.com</a>
+                                    </div>
+                                    <div class=" d-flex align-items-center gap-16 ">
+                                        <img src="./assets/image/svg/location_icon.svg" alt="mail_box.svg">
 
-                                <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
-                                    href="mailto:info@noblemindit@email.com">1322 Coney Island Avenue Brooklyn, NY
-                                    11230</a>
+                                        <a class="mb-0 op-80 ff_Poppins fs-sm lh-24 text-p-white"
+                                            href="mailto:info@noblemindit@email.com">1322 Coney Island Avenue Brooklyn,
+                                            NY
+                                            11230</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
